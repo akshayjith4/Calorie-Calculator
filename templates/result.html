@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Daily Calorie Intake Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            text-align: center;
+        }
+        .links {
+            margin-top: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: blue;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Your Daily Calorie Intake</h1>
+    <p>Total Daily Calorie Intake: <strong>{{ total_calories }}</strong> calories</p>
+
+    <p>For bulking up, shoot for: <strong>{{ total_calories + 250 }}</strong> calories a day!</p>
+    <p>Stay steady with: <strong>{{ total_calories }}</strong> calories daily!</p>
+    <p>Trim down with: <strong>{{ total_calories - 250 }}</strong> calories a day!</p>
+    <p>For a bigger cut, aim for: <strong>{{ total_calories - 500 }}</strong> calories daily!</p>
+
+    <div class="links">
+        <a href="{{ url_for('home') }}">Back to Home</a>
+        <a href="{{ url_for('foods') }}">Calories in Common Foods</a>
+        <a href="{{ url_for('exercises') }}">Calories Burned from Common Exercises</a>
+    </div>
+</body>
+</html>
