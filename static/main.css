@@ -1,0 +1,129 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #001f3f; /* Dark Blue Background */
+    color: #f0f0f0; /* Light Text Color */
+}
+
+a {
+    text-decoration: none;
+    color: #ffcc00; /* Yellow Links */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Form Container Styles */
+.form-container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #003366; /* Dark Blue Background for Form Container */
+    border-radius: 5px;
+    border: 1px solid #00509e; /* Border Color */
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #ffcc00; /* Yellow Labels */
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00509e; /* Dark Blue Border */
+    border-radius: 5px;
+    background-color: #001f3f; /* Dark Blue Background */
+    color: #f0f0f0; /* Light Text Color */
+}
+
+.gender-group {
+    margin-bottom: 20px;
+}
+
+.radio-container {
+    display: flex;
+    align-items: center;
+}
+
+.radio-container input[type="radio"] {
+    margin-right: 5px;
+}
+
+.radio-container label {
+    margin-right: 20px;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #00509e; /* Dark Blue Border */
+    border-radius: 5px;
+    background-color: #001f3f; /* Dark Blue Background */
+    color: #f0f0f0; /* Light Text Color */
+}
+
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #ffcc00; /* Yellow Background */
+    color: #001f3f; /* Dark Blue Text */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e6b800; /* Darker Yellow on Hover */
+}
+
+/* Links Section Styles */
+.links {
+    margin-top: 20px;
+    text-align: center; /* Center the links */
+}
+
+.links a {
+    color: #ffcc00; /* Yellow Links */
+    margin: 0 15px; /* Space between links */
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid #00509e; /* Dark Blue Border */
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    color: #f0f0f0; /* Light Text Color */
+}
+
+th {
+    background-color: #003366; /* Dark Blue Background */
+    color: #ffcc00; /* Yellow Text */
+}
+
+td {
+    background-color: #002a5b; /* Slightly Darker Blue Background for Data Cells */
+}
+
+/* Additional Styles for Specific Pages */
+.foods-exercises-titles {
+    color: #ffcc00; /* Yellow Color for Titles */
+    background-color: #003366; /* Dark Blue Background for Titles */
+    padding: 10px;
+    text-align: center; /* Center-align the titles */
+    border-radius: 5px;
+}
