@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calories Burned from Common Exercises</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
+    <style>
+        .foods-exercises-titles {
+            color: #f2f2f2;
+            text-align: center;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #004080;
+            color: #f2f2f2;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .links {
+            margin-top: 20px;
+            text-align: center;
+        }
+        a {
+            text-decoration: none;
+            color: #004080;
+            margin-right: 10px;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="foods-exercises-titles">Calories Burned from Common Exercises</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Activity (1 hour)</th>
+                <th>57 kg person</th>
+                <th>70 kg person</th>
+                <th>84 kg person</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Running (6 mph)</td>
+                <td>600</td>
+                <td>744</td>
+                <td>888</td>
+            </tr>
+            <tr>
+                <td>Cycling (12-14 mph)</td>
+                <td>480</td>
+                <td>596</td>
+                <td>712</td>
+            </tr>
+            <tr>
+                <td>Swimming (moderate)</td>
+                <td>500</td>
+                <td>620</td>
+                <td>740</td>
+            </tr>
+            <tr>
+                <td>Walking (4 mph)</td>
+                <td>315</td>
+                <td>389</td>
+                <td>464</td>
+            </tr>
+            <tr>
+                <td>Weightlifting</td>
+                <td>270</td>
+                <td>335</td>
+                <td>400</td>
+            </tr>
+            <tr>
+                <td>Yoga</td>
+                <td>240</td>
+                <td>297</td>
+                <td>354</td>
+            </tr>
+            <tr>
+                <td>Jump Rope</td>
+                <td>750</td>
+                <td>930</td>
+                <td>1110</td>
+            </tr>
+            <tr>
+                <td>Elliptical Trainer</td>
+                <td>500</td>
+                <td>620</td>
+                <td>740</td>
+            </tr>
+            <tr>
+                <td>Rowing</td>
+                <td>600</td>
+                <td>744</td>
+                <td>888</td>
+            </tr>
+            <tr>
+                <td>Hiking</td>
+                <td>430</td>
+                <td>533</td>
+                <td>636</td>
+            </tr>
+            <tr>
+                <td>Jumping Jacks</td>
+                <td>500</td>
+                <td>620</td>
+                <td>740</td>
+            </tr>
+            <tr>
+                <td>High-Intensity Interval Training (HIIT)</td>
+                <td>700</td>
+                <td>868</td>
+                <td>1036</td>
+            </tr>
+            <tr>
+                <td>Kickboxing</td>
+                <td>600</td>
+                <td>744</td>
+                <td>888</td>
+            </tr>
+            <tr>
+                <td>Stair Climbing</td>
+                <td>570</td>
+                <td>707</td>
+                <td>844</td>
+            </tr>
+            <tr>
+                <td>Stretching</td>
+                <td>200</td>
+                <td>248</td>
+                <td>296</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="links">
+        <a href="{{ url_for('foods') }}">Calories in Common Foods</a> |
+        <a href="{{ url_for('home') }}">Back to Home</a>
+    </div>
+
+</body>
+</html>
