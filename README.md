@@ -11,22 +11,20 @@
 </ul>
 
 <h2>Installation</h2>
-<hr/>
-<ol>
-    <li><strong>Clone the repository:</strong></li>
-    <pre><code>git clone https://github.com/akshayjith4/Calorie-Calculator.git</code></pre>
+<p><strong>Clone the repository:</strong></p>
+<pre><code>git clone https://github.com/akshayjith4/Calorie-Calculator.git</code></pre>
 
-    <li><strong>Navigate to the project directory:</strong></li>
-    <pre><code>cd Calorie-Calculator</code></pre>
+<li><strong>Navigate to the project directory:</strong></li>
+<pre><code>cd Calorie-Calculator</code></pre>
 
-    <li><strong>Install the required dependencies:</strong></li>
-    <pre><code>pip install -r requirements.txt</code></pre>
+<li><strong>Install the required dependencies:</strong></li>
+<pre><code>pip install -r requirements.txt</code></pre>
 
-    <li><strong>Run the application:</strong></li>
-    <pre><code>python main.py</code></pre>
-</ol>
+<li><strong>Run the application:</strong></li>
+<pre><code>python main.py</code></pre>
 
 <h2>Usage</h2>
+
 <p>
     Open your browser and navigate to <code>http://localhost:5000</code>.<br/>
     Enter your details including age, height, weight, gender, and activity level.<br/>
