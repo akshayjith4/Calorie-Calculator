@@ -1,37 +1,47 @@
-Calorie Calculator
-Calorie Calculator is a web application that helps you estimate your daily calorie needs using the Mifflin-St Jeor Equation. This tool is designed to assist you in managing your diet and fitness goals by providing an accurate calculation of your Total Daily Energy Expenditure (TDEE).
+<h1>Calorie Calculator</h1>
 
+<p>Calorie Calculator is a web application that helps you estimate your daily calorie needs using the Mifflin-St Jeor Equation. This tool is designed to assist you in managing your diet and fitness goals by providing an accurate calculation of your Total Daily Energy Expenditure (TDEE).</p>
 
-Features
-User Input: Input your age, height, weight, gender, and activity level.
-Mifflin-St Jeor Equation: The app uses this equation to calculate your Basal Metabolic Rate (BMR).
-TDEE Calculation: Get an estimate of your Total Daily Energy Expenditure based on your BMR and activity level.
-Responsive Design: The app is built with HTML, CSS, and Flask, ensuring a smooth user experience across devices.
+<h2>Features</h2>
+<ul>
+    <li><strong>User Input</strong>: Input your age, height, weight, gender, and activity level.</li>
+    <li><strong>Mifflin-St Jeor Equation</strong>: The app uses this equation to calculate your Basal Metabolic Rate (BMR).</li>
+    <li><strong>TDEE Calculation</strong>: Get an estimate of your Total Daily Energy Expenditure based on your BMR and activity level.</li>
+    <li><strong>Responsive Design</strong>: The app is built with HTML, CSS, and Flask, ensuring a smooth user experience across devices.</li>
+</ul>
 
-Installation<hr/>
-Clone the repository:
-git clone https://github.com/akshayjith4/Calorie-Calculator.git
+<h2>Installation</h2>
+<hr/>
+<ol>
+    <li><strong>Clone the repository:</strong></li>
+    <pre><code>git clone https://github.com/akshayjith4/Calorie-Calculator.git</code></pre>
 
-Navigate to the project directory:
-cd Calorie-Calculator
+    <li><strong>Navigate to the project directory:</strong></li>
+    <pre><code>cd Calorie-Calculator</code></pre>
 
-Install the required dependencies:
-pip install -r requirements.txt
+    <li><strong>Install the required dependencies:</strong></li>
+    <pre><code>pip install -r requirements.txt</code></pre>
 
-Run the application:
-python main.py
+    <li><strong>Run the application:</strong></li>
+    <pre><code>python main.py</code></pre>
+</ol>
 
-Usage
-Open your browser and navigate to http://localhost:5000.
-Enter your details including age, height, weight, gender, and activity level.
-Click on 'Calculate' to get your daily calorie needs.
+<h2>Usage</h2>
+<p>
+    Open your browser and navigate to <code>http://localhost:5000</code>.<br/>
+    Enter your details including age, height, weight, gender, and activity level.<br/>
+    Click on 'Calculate' to get your daily calorie needs.
+</p>
 
-Technologies Used
-HTML: For the structure of the web pages.
-CSS: For styling the application.
-Python (Flask): As the backend framework to handle user inputs and calculations.
+<h2>Technologies Used</h2>
+<ul>
+    <li><strong>HTML</strong>: For the structure of the web pages.</li>
+    <li><strong>CSS</strong>: For styling the application.</li>
+    <li><strong>Python (Flask)</strong>: As the backend framework to handle user inputs and calculations.</li>
+</ul>
 
-Contact
-For any questions or suggestions, feel free to reach out:
-
-GitHub: akshayjith4
+<h2>Contact</h2>
+<p>
+    For any questions or suggestions, feel free to reach out:<br/>
+    <strong>GitHub</strong>: <a href="https://github.com/akshayjith4">akshayjith4</a>
+</p>
